@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+@import "reset.css";
+/* font-family: 'East Sea Dokdo', cursive; */
+
+body {
+  background-color: #fff;
+}
+
+#wrap {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "East Sea Dokdo", cursive;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+}
+.header {
+  width: 50%;
+}
+.header:first-child {
+  padding: 25px;
+}
+.header:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header:last-child a {
+  padding: 25px;
+  list-style: none;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+/* imgslide */
+.imgslide .imgs {
+  position: relative;
+  height: 350px;
+  width: 1000px;
+  overflow: hidden;
+}
+.imgslide .imgs img {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  transition: all 1s;
+}
+
+/* contents1 */
+.contents1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #5b5b5b;
+}
+.ct1 {
+  width: 50%;
+}
+.ct1 h2 {
+  list-style: none;
+  font-size: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+.news {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.news tr td {
+  padding: 12px;
+}
+.news tr td:last-child {
+  padding-left: 20px;
+  font-size: 22px;
+}
+.news tr td a {
+  font-size: 30px;
+  text-decoration: none;
+}
+.news tr:nth-child(2n) {
+  background-color: #aeb1ac;
+}
+
+.ct1 .store {
+  display: flex;
+}
+.ct1 .store img {
+  width: 50%;
+  padding: 40px 10px 0;
+}
+
+/* contents2 */
+.contents2 {
+  margin-top: 40px;
+}
+.contents2 h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.contents2 table {
+  width: 1000px;
+  margin-top: 50px;
+}
+.contents2 td {
+  width: 33%;
+}
+.contents2 .care {
+  text-align: center;
+}
+.contents2 .care img {
+  width: 50%;
+}
+.contents2 .care h3 {
+  color: #aa8976;
+  font-size: 35px;
+  padding: 15px;
+}
+.contents2 .care span {
+  font-size: 25px;
+  color: #aaaaaa;
+}
+
+/* smoove */
+.smoove h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+}
+.clearfix:after,
+.clearfix:before {
+  display: block;
+  content: "";
+  clear: both;
+}
+.row {
+  margin-bottom: 40px;
+  padding-left: 22px;
+}
+.row > div {
+  float: left;
+}
+.al {
+  width: 22%;
+  margin: 0 1.5%;
+}
+.al:last-child {
+  margin-right: 0;
+}
+.block {
+  background: url(../img/mag1.JPG) no-repeat;
+  height: 300px;
+}
+.block2 {
+  background: url(../img/mag2.JPG) no-repeat;
+  height: 300px;
+}
+.block3 {
+  background: url(../img/mag3.JPG) no-repeat;
+  height: 300px;
+}
+.block4 {
+  background: url(../img/mag4.JPG) no-repeat;
+  height: 300px;
+}
+.block5 {
+  background: url(../img/mag5.JPG) no-repeat;
+  height: 300px;
+}
+.block6 {
+  background: url(../img/mag6.JPG) no-repeat;
+  height: 300px;
+}
+.block7 {
+  background: url(../img/mag7.JPG) no-repeat;
+  height: 300px;
+}
+.block8 {
+  background: url(../img/mag8.JPG) no-repeat;
+  height: 300px;
+}
+
+/* insta */
+.insta {
+  margin-top: 20px;
+}
+.insta h3 {
+  font-size: 28px;
+  text-align: center;
+}
+.insta .insta__img {
+  display: flex;
+}
+.insta .insta__img a img {
+  width: 80%;
+}
